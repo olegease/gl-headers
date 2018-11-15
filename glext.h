@@ -464,7 +464,7 @@ extern "C" {
 
 #ifndef GL_VERSION_1_5
 #define GL_VERSION_1_5 1
-#include <KHR/khrplatform.h>
+#include "KHR/khrplatform.h"
     typedef khronos_ssize_t GLsizeiptr;
     typedef khronos_intptr_t GLintptr;
 #define GL_BUFFER_SIZE                    0x8764
